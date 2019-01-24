@@ -60,8 +60,8 @@ body {
 
 		.top {
 			margin-bottom: 70px;
-			padding: 30px 15%;
 			@media #{$sp} {
+				padding: 30px 15%;
 				margin-bottom: 0px;
 			}
 			.content {
@@ -72,14 +72,14 @@ body {
 					}
 				}
 				&_inner {
-					margin: 0 400px;
 					@media #{$sp} {
 						padding-top: 30px;
 						margin: 0px;
 					}
 					.appli_link {
 						&.pc {
-							margin-top: 45px;
+							width: 350px;
+							margin: 45px auto 0 auto;
 							display: -webkit-box;
 							display: -ms-flexbox;
 							display: flex;
@@ -89,8 +89,10 @@ body {
 									margin-right: 0;
 								}
 								a {
+									display: block;
 									img {
-										width: auto;
+										width: 160px;
+										height: auto;
 									}
 								}
 							}

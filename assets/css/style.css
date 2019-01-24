@@ -90,22 +90,18 @@ body main .content_title {
 
 body main .top {
   margin-bottom: 70px;
-  padding: 30px 15%;
 }
 
 body main .top .content_title {
   padding-top: 50px;
 }
 
-body main .top .content_inner {
-  margin: 0 400px;
-}
-
 body main .top .content_inner .appli_link.pc {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 45px;
+  margin: 45px auto 0 auto;
+  width: 350px;
 }
 
 body main .top .content_inner .appli_link.pc .link_btn {
@@ -116,8 +112,13 @@ body main .top .content_inner .appli_link.pc .link_btn:last-child {
   margin-right: 0;
 }
 
+body main .top .content_inner .appli_link.pc .link_btn a {
+  display: block;
+}
+
 body main .top .content_inner .appli_link.pc .link_btn a img {
-  width: auto;
+  height: auto;
+  width: 160px;
 }
 
 body main .top .content_inner .appli_link.sp .link_btn {
@@ -414,6 +415,7 @@ body footer .footer_inc a {
   }
   body main .top {
     margin-bottom: 0px;
+    padding: 30px 15%;
   }
   body main .top .content_title {
     padding-top: 0;

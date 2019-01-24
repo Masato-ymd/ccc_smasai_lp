@@ -1,11 +1,21 @@
+@charset "UTF-8";
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
 body {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
   margin: 0;
 }
 
@@ -36,54 +46,459 @@ img {
   width: 100%;
 }
 
-header .header__wrap {
-  margin: 0 auto;
-  width: 960px;
+body {
+  background: #F2F2F2;
+  color: #4C4C4C;
+  text-align: center;
 }
 
-main {
+body header .logo__wrap {
   margin: 0 auto;
-  width: 960px;
+  width: 1280px;
 }
 
-footer {
+body .banner {
+  background-color: #f2f2f2;
+  height: 65px;
+  position: fixed;
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
+  width: 100%;
+  z-index: 256;
+}
+
+body .banner .img {
+  background-image: url(../images/banner_sp.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+  font-size: 0;
+  height: 100%;
+}
+
+body main {
+  margin: 0 auto;
+  width: 1280px;
+}
+
+body main .content_title {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+body main .top {
+  margin-bottom: 70px;
+  padding: 30px 15%;
+}
+
+body main .top .content_title {
+  padding-top: 50px;
+}
+
+body main .top .content_inner {
+  margin: 0 400px;
+}
+
+body main .top .content_inner .appli_link.pc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 45px;
+}
+
+body main .top .content_inner .appli_link.pc .link_btn {
+  margin-right: 20px;
+}
+
+body main .top .content_inner .appli_link.pc .link_btn:last-child {
+  margin-right: 0;
+}
+
+body main .top .content_inner .appli_link.pc .link_btn a img {
+  width: auto;
+}
+
+body main .top .content_inner .appli_link.sp .link_btn {
+  padding: 0 50px;
+  padding-bottom: 40px;
+}
+
+body main .top .content_inner .appli_link.sp .link_btn a {
+  display: block;
+}
+
+body main .top .content_inner .appli_link.sp .link_btn a img {
+  display: block;
+}
+
+body main .stamp {
+  background: #ffffff;
+  margin-bottom: 80px;
+}
+
+body main .stamp .content_title {
+  padding-top: 50px;
+}
+
+body main .stamp .content_inner .prize_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .stamp .content_inner .prize_list_wrap {
+  border-bottom: solid 2px #F2F2F2;
+  margin: 50px 0 60px 0;
+  padding-bottom: 30px;
+}
+
+body main .stamp .content_inner .prize_list_period {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+
+body main .stamp .content_inner .prize_list_item {
+  margin-right: 55px;
+  width: 350px;
+}
+
+body main .stamp .content_inner .prize_list_item:last-child {
+  margin-right: 0;
+}
+
+body main .stamp .content_inner .prize_item_img {
+  height: 250px;
+  width: auto;
+}
+
+body main .stamp .content_inner .prize_item_img img {
+  display: block;
+  height: 250px;
+  vertical-align: middle;
+}
+
+body main .stamp .content_inner .prize_item_annotation {
+  font-size: 12px;
+  margin-bottom: 14px;
+  margin-top: 35px;
+}
+
+body main .stamp .content_inner .about_stamp {
+  padding: 50px 0 90px 0;
+}
+
+body main .stamp .content_inner .about_stamp_title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+body main .stamp .content_inner .about_stamp_title_box {
+  border: 2px solid #f2f2f2;
+  margin: auto 60px 35px auto;
+  padding: 24px 0;
+}
+
+body main .stamp .content_inner .about_stamp_box {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+body main .stamp .content_inner .about_stamp_box_title {
+  border: 2px solid #f2f2f2;
+  margin: 60px 35px auto;
+  padding: 24px 0;
+}
+
+body main .stamp .content_inner .about_stamp_img {
+  padding: 0 10%;
+}
+
+body main .stamp .content_inner .about_stamp_period {
+  margin-bottom: 50px;
+}
+
+body main .stamp .content_inner .about_stamp_annotation {
+  font-size: 12px;
+  padding: 0 40px;
+}
+
+body main .stamp .content_inner .about_stamp_annotation a {
+  text-decoration: underline;
+}
+
+body main .reward {
+  margin-bottom: 110px;
+  padding: 0 15%;
+}
+
+body main .reward .content_title {
+  margin-bottom: 35px;
+}
+
+body main .reward .content_inner {
+  background: #ffffff;
+  padding: 30px 0 40px 0;
+}
+
+body main .reward .content_inner .about_reward_text {
+  padding-bottom: 30px;
+}
+
+body main .reward .content_inner .about_reward_text.strong {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+body main .reward .content_inner .about_reward_annotation {
+  font-size: 12px;
+}
+
+body main .event {
+  background: #ffffff;
+  margin-bottom: 110px;
+}
+
+body main .event .content_title {
+  padding: 50px 0;
+}
+
+body main .event .content_inner {
+  padding-bottom: 70px;
+}
+
+body main .event .content_inner .about_event_item {
+  padding-bottom: 30px;
+}
+
+body main .event .content_inner .about_event_item:last-child {
+  padding-bottom: 0;
+}
+
+body main .question {
+  margin-bottom: 110px;
+}
+
+body main .question .content_title {
+  margin-bottom: 60px;
+}
+
+body main .question .content_inner {
+  padding: 0 61px;
+}
+
+body main .question_list_item {
+  margin-bottom: 35px;
+  text-decoration: underline;
+}
+
+body main .appli {
+  background: #ffffff;
+  margin-bottom: 80px;
+}
+
+body main .appli .content_title {
+  margin-bottom: 65px;
+  padding-top: 50px;
+}
+
+body main .appli .content_inner {
+  padding-bottom: 70px;
+}
+
+body main .appli .content_inner .appli_link.pc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 350px;
+}
+
+body main .appli .content_inner .appli_link.pc .link_btn {
+  margin-right: 20px;
+}
+
+body main .appli .content_inner .appli_link.pc .link_btn:last-child {
+  margin-right: 0;
+}
+
+body main .appli .content_inner .appli_link.pc .link_btn a {
+  display: block;
+}
+
+body main .appli .content_inner .appli_link.pc .link_btn a img {
+  height: auto;
+  width: 165px;
+}
+
+body main .appli .content_inner .appli_link.sp .link_btn a {
+  display: block;
+  margin: 0 auto;
+  width: 170px;
+}
+
+body main .appli .content_inner .appli_link.sp .link_btn a img {
+  display: block;
+}
+
+body main .appli .content_inner .introduction_link {
+  padding-top: 80px;
+}
+
+body main .appli .content_inner .introduction_link a {
+  text-decoration: underline;
+}
+
+body footer {
   background: #A6A6A6;
   width: 100%;
 }
 
-footer .footer__wrap {
+body footer .footer__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin: 0 auto;
-  width: 960px;
+  width: 1080px;
 }
 
-footer .footer_inc {
-  padding: 35px 0;
-  text-align: center;
+body footer .footer_link {
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-footer .footer_inc a {
+body footer .footer_link_item {
+  font-size: 14px;
+  margin-right: 24px;
+  padding: 25px 0;
+}
+
+body footer .footer_link_item:last-child {
+  margin-right: 95px;
+}
+
+body footer .footer_inc {
+  font-size: 14px;
+  padding: 25px 0;
+}
+
+body footer .footer_inc a {
   color: #fff;
   display: block;
 }
 
 @media only screen and (max-width: 769px) {
   .pc {
-    display: none;
+    display: none !important;
   }
   .sp {
     display: block;
   }
-  header .header__wrap {
+  body {
+    font-size: 14px;
+  }
+  body header .logo__wrap {
     padding: 15px 0;
+    width: 80%;
+  }
+  body main {
+    padding-top: 60px;
     width: 100%;
   }
-  main {
+  body main .content_title {
+    font-size: 20px;
+  }
+  body main .top {
+    margin-bottom: 0px;
+  }
+  body main .top .content_title {
+    padding-top: 0;
+  }
+  body main .top .content_inner {
+    margin: 0px;
+    padding-top: 30px;
+  }
+  body main .stamp .content_inner .prize_list {
+    display: block;
+  }
+  body main .stamp .content_inner .prize_list_period {
+    font-size: 18px;
+  }
+  body main .stamp .content_inner .prize_list_item {
+    margin-right: 0px;
     width: 100%;
   }
-  footer .footer__wrap {
+  body main .stamp .content_inner .prize_item_img {
+    margin-top: 25px;
+    padding: 0 40px;
+  }
+  body main .stamp .content_inner .prize_item_text {
+    font-size: 14px;
+  }
+  body main .stamp .content_inner .about_stamp_title {
+    font-size: 24px;
+  }
+  body main .stamp .content_inner .about_stamp_box {
+    font-size: 18px;
+    padding: 15px 66px 35px 66px;
+  }
+  body main .stamp .content_inner .about_stamp_box_title {
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+  body main .stamp .content_inner .about_stamp_img img {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+  }
+  body main .stamp .content_inner .about_stamp_period {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  body main .stamp .content_inner .about_stamp_annotation {
+    font-size: 10px;
+    line-height: 1.5;
+  }
+  body main .reward .content_inner {
+    padding: 40px 5%;
+  }
+  body main .question_list_item {
+    font-size: 12px;
+    text-align: left;
+  }
+  body main .appli .content_title {
+    margin-bottom: 45px;
+  }
+  body main .appli .content_inner {
+    margin: 0px;
+  }
+  body main .appli .content_inner .introduction_link {
+    padding-top: 40px;
+  }
+  body footer .footer__wrap {
+    display: block;
     width: 100%;
   }
-  footer .footer_inc {
+  body footer .footer_link {
+    background: #ffffff;
+    color: #000000;
+    display: block;
+    font-size: 12px;
+  }
+  body footer .footer_link_item:last-child {
+    margin: 0 auto;
+  }
+  body footer .footer_link_item {
+    border-bottom: 2px solid #f2f2f2;
+    margin-right: 0;
+    padding: 12px 0;
+  }
+  body footer .footer_inc {
+    font-size: 12px;
     padding: 10px 0;
   }
 }

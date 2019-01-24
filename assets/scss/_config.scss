@@ -3,6 +3,20 @@
 * {
     box-sizing: border-box;
 }
+
+// color
+$main_color: #ad061c;
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
 // clearfix
 .clearfix:after{
     content: ".";

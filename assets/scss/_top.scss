@@ -1,1 +1,48 @@
 @charset "utf-8";
+
+header {
+	.header{
+		&__wrap {
+			width: 960px;
+			margin: 0 auto;
+			@media #{$sp} {
+				width: 100%;
+				padding: 15px 0;
+			}
+		}
+	}
+}
+
+main {
+	width: 960px;
+	margin: 0 auto;
+	@media #{$sp} {
+		width: 100%;
+	}
+}
+
+footer {
+	width: 100%;
+	background: #A6A6A6;
+	.footer {
+		&__wrap {
+			width: 960px;
+			margin: 0 auto;
+			@media #{$sp} {
+				width: 100%;
+			}
+		}
+		&_inc {
+			padding : 35px 0;
+			text-align: center;
+			@media #{$sp} {
+				padding : 10px 0;
+			}
+			a {
+				display: block;
+				color: #fff;
+			}
+		}
+	}
+
+}

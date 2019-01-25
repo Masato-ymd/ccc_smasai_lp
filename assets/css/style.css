@@ -549,6 +549,7 @@ body footer .footer_inc a {
     font-size: 12px;
   }
   body footer .footer_link_item:last-child {
+    border-bottom: none;
     margin: 0 auto;
   }
   body footer .footer_link_item {

@@ -51,6 +51,10 @@ a {
   display: none;
 }
 
+.hide {
+  display: none;
+}
+
 img {
   height: auto;
   width: 100%;
@@ -160,16 +164,16 @@ body main #top .content_inner .appli_link.pc .link_btn a img {
   width: 160px;
 }
 
-body main #top .content_inner .appli_link.sp .link_btn {
+body main #top .content_inner .appli_link.sp .sp_link_btn {
   padding: 0 50px;
   padding-bottom: 40px;
 }
 
-body main #top .content_inner .appli_link.sp .link_btn a {
+body main #top .content_inner .appli_link.sp .sp_link_btn a {
   display: block;
 }
 
-body main #top .content_inner .appli_link.sp .link_btn a img {
+body main #top .content_inner .appli_link.sp .sp_link_btn a img {
   display: block;
 }
 
@@ -355,17 +359,17 @@ body main #appli .content_inner .appli_link.pc .link_btn a img {
   width: 165px;
 }
 
-body main #appli .content_inner .appli_link.sp .link_btn {
+body main #appli .content_inner .appli_link.sp .sp_link_btn {
   padding-bottom: 45px;
 }
 
-body main #appli .content_inner .appli_link.sp .link_btn a {
+body main #appli .content_inner .appli_link.sp .sp_link_btn a {
   display: block;
   margin: 0 auto;
   width: 170px;
 }
 
-body main #appli .content_inner .appli_link.sp .link_btn a img {
+body main #appli .content_inner .appli_link.sp .sp_link_btn a img {
   display: block;
 }
 

@@ -46,7 +46,7 @@ body {
 		}
 	}
 	.banner {
-		height: 60px;
+		height: 56px;
 		width: 100%;
 		z-index: 256;
 		transition: 0.2s all ease;
@@ -54,7 +54,9 @@ body {
 		position: fixed;
 		.img {
 			display: block;
+			width: 320px;
 			height: 100%;
+			margin: 0 auto;
 			background-repeat: no-repeat;
 			font-size: 0;
 			background-image: url(../images/banner_sp.png);
@@ -66,7 +68,7 @@ body {
 		width: 1280px;
 		margin: 0 auto;
 		@media #{$sp} {
-			padding-top: 60px;
+			padding-top: 56px;
 			width: 100%;
 		}
 		.content {

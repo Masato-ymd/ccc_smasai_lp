@@ -97,7 +97,7 @@ body header .link {
 
 body .banner {
   background-color: #f2f2f2;
-  height: 60px;
+  height: 56px;
   position: fixed;
   -webkit-transition: 0.2s all ease;
   transition: 0.2s all ease;
@@ -112,6 +112,8 @@ body .banner .img {
   display: block;
   font-size: 0;
   height: 100%;
+  margin: 0 auto;
+  width: 320px;
 }
 
 body main {
@@ -427,7 +429,7 @@ body footer .footer_inc a {
     display: none;
   }
   body main {
-    padding-top: 60px;
+    padding-top: 56px;
     width: 100%;
   }
   body main .content_title {

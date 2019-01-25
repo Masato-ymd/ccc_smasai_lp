@@ -8,18 +8,29 @@ body {
 		font-size: 14px;
 	}
 	header {
+		display: flex;
+    justify-content: space-between;
+    align-items: center;
+		padding: 0 20px;
+		margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    width: 1280px;
+    height: 50px;
 		.logo{
-			&__wrap {
-				width: 1280px;
-				margin: 0 auto;
-				@media #{$sp} {
-					width: 80%;
-					padding: 15px 0;
-				}
-			}
+			background-repeat: no-repeat;
+			font-size: 0;
+			background-image: url(../images/header_logo.png);
+			width: 130px;
+			height: 16px;
 		}
 		.link {
-
+			background-repeat: no-repeat;
+			font-size: 0;
+			background-image: url(../images/header_button.png);
+			width: 172px;
+			height: 25px;
+			transition: 0.2s all ease;
 		}
 	}
 	.banner {

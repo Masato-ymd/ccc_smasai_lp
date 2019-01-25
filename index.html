@@ -304,13 +304,16 @@
 	<script>
 	$(function() {
 	 $(window).scroll(function () {
-	 var s = $(this).scrollTop();
-	 var m = 100;
-	 if(s > m) {
-	 $(".banner").fadeOut();
-	 } else if(s < m) {
-	 $(".banner").fadeIn("fast");
-	 }
+		var s = $(this).scrollTop();
+		var m = 100;
+		var w = $(window).width();
+		if (w <= 768) {
+			if(s > m) {
+				$(".banner").fadeOut();
+			} else if(s < m) {
+				$(".banner").fadeIn("fast");
+			}
+		}
 	 });
 	});
 	</script>

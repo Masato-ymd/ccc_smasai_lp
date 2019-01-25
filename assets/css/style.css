@@ -475,6 +475,7 @@ body footer .text + .text {
   }
   body main #reward {
     margin-bottom: 60px;
+    padding: 0 10%;
   }
   body main #event .content_inner .about_event {
     padding: 0 40px;

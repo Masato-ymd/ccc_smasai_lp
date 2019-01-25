@@ -255,6 +255,7 @@ body {
 			margin-bottom: 100px;
 			@media #{$sp} {
 				margin-bottom: 60px;
+				padding: 0 10%;
 			}
 			.content {
 				&_inner {

@@ -447,7 +447,7 @@ body footer .text + .text {
     font-size: 14px;
   }
   body main #prize .content_inner .about_stamp_img {
-    padding: 0 10%;
+    padding: 0 3%;
   }
   body main #prize .content_inner .about_stamp_text {
     margin-top: 15px;

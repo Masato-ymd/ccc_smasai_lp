@@ -11,6 +11,9 @@ body {
 	h2 {
 		font-size: 24px;
 		font-weight: 600;
+		@media #{$sp} {
+			font-size: 18px;
+		}
 	}
 
 	header {
@@ -43,7 +46,7 @@ body {
 		}
 	}
 	.banner {
-		height: 56px;
+		height: 60px;
 		width: 100%;
 		z-index: 256;
 		transition: 0.2s all ease;
@@ -63,7 +66,7 @@ body {
 		width: 1280px;
 		margin: 0 auto;
 		@media #{$sp} {
-			padding-top: 56px;
+			padding-top: 60px;
 			width: 100%;
 		}
 		.content {
@@ -73,6 +76,7 @@ body {
 				font-weight: 600;
 				@media #{$sp} {
 					font-size: 20px;
+					letter-spacing: 3px;
 				}
 			}
 		}
@@ -136,6 +140,9 @@ body {
 			background: #ffffff;
 			margin-bottom: 80px;
 			padding: 0 40px;
+			@media #{$sp} {
+				padding: 0 10%;
+			}
 			.content {
 				&_title {
 					padding-top: 50px;
@@ -210,15 +217,14 @@ body {
 						&_title {
 							@media #{$sp} {
 								font-size: 24px;
+								margin-top: 0;
+								margin-bottom: 20px;
 							}
 						}
 						&_img {
-							padding: 0 10%;
 							img {
 								@media #{$sp} {
-									width: auto;
 									display: block;
-									margin: 0 auto;
 								}
 							}
 						}
@@ -235,7 +241,7 @@ body {
 								@media #{$sp} {
 									font-size: 18px;
 									margin-top: 15px;
-									padding: 0 12%;
+									padding: 0;
 								}
 								&_title {
 									padding: 24px 0;
@@ -258,6 +264,7 @@ body {
 								padding: 0 40px;
 								@media #{$sp} {
 									font-size: 10px;
+									padding: 0;
 								}
 								a {
 									text-decoration: underline;

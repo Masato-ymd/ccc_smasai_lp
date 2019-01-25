@@ -97,7 +97,7 @@ body header .link {
 
 body .banner {
   background-color: #f2f2f2;
-  height: 56px;
+  height: 60px;
   position: fixed;
   -webkit-transition: 0.2s all ease;
   transition: 0.2s all ease;
@@ -222,10 +222,6 @@ body main #prize .content_inner .prize_item_annotation {
   font-size: 12px;
   margin-bottom: 14px;
   margin-top: 35px;
-}
-
-body main #prize .content_inner .about_stamp_img {
-  padding: 0 10%;
 }
 
 body main #prize .content_inner .about_stamp_text {
@@ -424,15 +420,19 @@ body footer .footer_inc a {
   body {
     font-size: 14px;
   }
+  body h2 {
+    font-size: 18px;
+  }
   body header {
     display: none;
   }
   body main {
-    padding-top: 56px;
+    padding-top: 60px;
     width: 100%;
   }
   body main .content_title {
     font-size: 20px;
+    letter-spacing: 3px;
   }
   body main #top {
     margin-bottom: 0px;
@@ -444,6 +444,9 @@ body footer .footer_inc a {
   body main #top .content_inner {
     margin: 0px;
     padding-top: 30px;
+  }
+  body main #prize {
+    padding: 0 10%;
   }
   body main #prize .content_inner {
     padding-top: 35px;
@@ -472,11 +475,11 @@ body footer .footer_inc a {
   }
   body main #prize .content_inner .about_stamp_title {
     font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 0;
   }
   body main #prize .content_inner .about_stamp_img img {
     display: block;
-    margin: 0 auto;
-    width: auto;
   }
   body main #prize .content_inner .about_stamp_text {
     padding-bottom: 65px;
@@ -484,7 +487,7 @@ body footer .footer_inc a {
   body main #prize .content_inner .about_stamp_text_box {
     font-size: 18px;
     margin-top: 15px;
-    padding: 0 12%;
+    padding: 0;
   }
   body main #prize .content_inner .about_stamp_text_box_title {
     margin: 0 auto;
@@ -496,6 +499,7 @@ body footer .footer_inc a {
   }
   body main #prize .content_inner .about_stamp_text_annotation {
     font-size: 10px;
+    padding: 0;
   }
   body main #reward {
     padding: 0 10%;

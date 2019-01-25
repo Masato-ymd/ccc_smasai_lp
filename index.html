@@ -293,11 +293,26 @@
 	</footer>
 
 	<script type="text/javascript">
+		// 端末判定
 		if (navigator.userAgent.indexOf("iPhone") > 0 && -1 == navigator.userAgent.indexOf("iPad") || navigator.userAgent.indexOf("iPod") > 0) {
 			$('.sp_link_btn.android').addClass('hide');
 		}else {
 			$('.sp_link_btn.ios').addClass('hide');
 		}
+	</script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script>
+	$(function() {
+	 $(window).scroll(function () {
+	 var s = $(this).scrollTop();
+	 var m = 100;
+	 if(s > m) {
+	 $(".banner").fadeOut();
+	 } else if(s < m) {
+	 $(".banner").fadeIn("fast");
+	 }
+	 });
+	});
 	</script>
 </body>
 </html>

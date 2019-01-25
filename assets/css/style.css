@@ -170,15 +170,11 @@ body main .stamp .content_inner .prize_list_item:last-child {
   margin-right: 0;
 }
 
-body main .stamp .content_inner .prize_item_img {
-  height: 250px;
-  width: auto;
-}
-
 body main .stamp .content_inner .prize_item_img img {
   display: block;
   height: 250px;
-  vertical-align: middle;
+  margin: 0 auto;
+  width: auto;
 }
 
 body main .stamp .content_inner .prize_item_annotation {
@@ -196,20 +192,15 @@ body main .stamp .content_inner .about_stamp_title {
   font-weight: bold;
 }
 
-body main .stamp .content_inner .about_stamp_title_box {
-  border: 2px solid #f2f2f2;
-  margin: auto 60px 35px auto;
-  padding: 24px 0;
-}
-
 body main .stamp .content_inner .about_stamp_box {
   font-size: 20px;
   font-weight: bold;
+  margin-bottom: 35px;
+  padding: 0 60px;
 }
 
 body main .stamp .content_inner .about_stamp_box_title {
   border: 2px solid #f2f2f2;
-  margin: 60px 35px auto;
   padding: 24px 0;
 }
 
@@ -436,7 +427,11 @@ body footer .footer_inc a {
   }
   body main .stamp .content_inner .prize_item_img {
     margin-top: 25px;
-    padding: 0 40px;
+    padding: 0 10%;
+  }
+  body main .stamp .content_inner .prize_item_img img {
+    height: auto;
+    width: 100%;
   }
   body main .stamp .content_inner .prize_item_text {
     font-size: 14px;
@@ -446,11 +441,12 @@ body footer .footer_inc a {
   }
   body main .stamp .content_inner .about_stamp_box {
     font-size: 18px;
-    padding: 15px 66px 35px 66px;
+    margin-top: 15px;
+    padding: 0 12%;
   }
   body main .stamp .content_inner .about_stamp_box_title {
     margin: 0 auto;
-    padding: 10px 0;
+    padding: 10px 25px;
   }
   body main .stamp .content_inner .about_stamp_img img {
     display: block;
@@ -467,6 +463,15 @@ body footer .footer_inc a {
   }
   body main .reward .content_inner {
     padding: 40px 5%;
+  }
+  body main .event .content_title {
+    padding: 0 0 40px 0;
+  }
+  body main .event .content_inner {
+    padding: 40px 10%;
+  }
+  body main .event .content_inner .about_event_item {
+    text-align: left;
   }
   body main .question_list_item {
     font-size: 12px;

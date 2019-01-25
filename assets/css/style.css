@@ -226,8 +226,7 @@ body main #prize .content_inner .prize_item_img img {
 
 body main #prize .content_inner .prize_item_annotation {
   font-size: 12px;
-  margin-bottom: 14px;
-  margin-top: 35px;
+  margin-top: 15px;
 }
 
 body main #prize .content_inner .about_stamp_img img {
@@ -434,6 +433,7 @@ body footer .text + .text {
   }
   body main #prize .content_inner .prize_list_item {
     margin-right: 0px;
+    margin-top: 40px;
     width: 100%;
   }
   body main #prize .content_inner .prize_item_img {
@@ -455,7 +455,7 @@ body footer .text + .text {
   }
   body main #prize .content_inner .about_stamp_text_box_title {
     margin: 0 auto;
-    padding: 10px 25px;
+    padding: 10px 0;
   }
   body main #prize .content_inner .about_stamp_text_period {
     font-size: 14px;

@@ -515,10 +515,10 @@ body footer .footer_inc a {
     padding: 40px 5%;
   }
   body main #event .content_title {
-    padding: 0 0 40px 0;
+    padding-top: 40px;
   }
-  body main #event .content_inner {
-    padding: 40px 10%;
+  body main #event .content_inner .about_event {
+    padding: 0 40px;
   }
   body main #event .content_inner .about_event_item {
     text-align: left;

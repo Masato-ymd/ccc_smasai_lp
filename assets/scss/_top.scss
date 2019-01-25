@@ -299,15 +299,15 @@ body {
 				&_title {
 					padding: 50px 0;
 					@media #{$sp} {
-						padding: 0 0 40px 0;
+						padding-top: 40px;
 					}
 				}
 				&_inner {
 					padding-bottom: 70px;
-					@media #{$sp} {
-						padding: 40px 10%;
-					}
 					.about_event {
+						@media #{$sp} {
+							padding: 0 40px;
+						}
 						&_item {
 							padding-bottom: 30px;
 							@media #{$sp} {

@@ -84,13 +84,15 @@ body header .logo {
 }
 
 body header .link {
-  background-image: url(../images/header_button.png);
-  background-repeat: no-repeat;
-  font-size: 0;
-  height: 25px;
-  -webkit-transition: 0.2s all ease;
-  transition: 0.2s all ease;
+  background: #F1CF07;
+  color: #231815;
+  font-size: 12px;
+  padding: 2px;
   width: 172px;
+}
+
+body header .link a {
+  display: block;
 }
 
 body .banner {

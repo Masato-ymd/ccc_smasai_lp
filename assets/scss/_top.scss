@@ -22,12 +22,15 @@ body {
 			height: 16px;
 		}
 		.link {
-			background-repeat: no-repeat;
-			font-size: 0;
-			background-image: url(../images/header_button.png);
+			color: #231815;
+			font-size: 12px;
+			background: #F1CF07;
 			width: 172px;
-			height: 25px;
-			transition: 0.2s all ease;
+			padding: 2px;
+			// padding-top: 1px;
+			a {
+				display: block;
+			}
 		}
 	}
 	.banner {

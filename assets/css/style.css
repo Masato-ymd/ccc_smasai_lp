@@ -88,15 +88,15 @@ body main .content_title {
   line-height: 1.5;
 }
 
-body main .top {
+body main #top {
   margin-bottom: 70px;
 }
 
-body main .top .content_title {
+body main #top .content_title {
   padding-top: 50px;
 }
 
-body main .top .content_inner .appli_link.pc {
+body main #top .content_inner .appli_link.pc {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -104,203 +104,211 @@ body main .top .content_inner .appli_link.pc {
   width: 350px;
 }
 
-body main .top .content_inner .appli_link.pc .link_btn {
+body main #top .content_inner .appli_link.pc .link_btn {
   margin-right: 20px;
 }
 
-body main .top .content_inner .appli_link.pc .link_btn:last-child {
+body main #top .content_inner .appli_link.pc .link_btn:last-child {
   margin-right: 0;
 }
 
-body main .top .content_inner .appli_link.pc .link_btn a {
+body main #top .content_inner .appli_link.pc .link_btn a {
   display: block;
 }
 
-body main .top .content_inner .appli_link.pc .link_btn a img {
+body main #top .content_inner .appli_link.pc .link_btn a img {
   height: auto;
   width: 160px;
 }
 
-body main .top .content_inner .appli_link.sp .link_btn {
+body main #top .content_inner .appli_link.sp .link_btn {
   padding: 0 50px;
   padding-bottom: 40px;
 }
 
-body main .top .content_inner .appli_link.sp .link_btn a {
+body main #top .content_inner .appli_link.sp .link_btn a {
   display: block;
 }
 
-body main .top .content_inner .appli_link.sp .link_btn a img {
+body main #top .content_inner .appli_link.sp .link_btn a img {
   display: block;
 }
 
-body main .stamp {
+body main #prize {
   background: #ffffff;
   margin-bottom: 80px;
 }
 
-body main .stamp .content_title {
+body main #prize .content_title {
   padding-top: 50px;
 }
 
-body main .stamp .content_inner .prize_list {
+body main #prize .content_inner {
+  padding-top: 50px;
+}
+
+body main #prize .content_inner .prize_list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-body main .stamp .content_inner .prize_list_wrap {
+body main #prize .content_inner .prize_list_wrap {
   border-bottom: solid 2px #F2F2F2;
-  margin: 50px 0 60px 0;
+  margin-bottom: 60px;
   padding-bottom: 30px;
 }
 
-body main .stamp .content_inner .prize_list_period {
+body main #prize .content_inner .prize_list_wrap:last-child {
+  margin-bottom: 0;
+}
+
+body main #prize .content_inner .prize_list_period {
   font-size: 20px;
   font-weight: bold;
   padding-bottom: 40px;
 }
 
-body main .stamp .content_inner .prize_list_item {
+body main #prize .content_inner .prize_list_item {
   margin-right: 55px;
   width: 350px;
 }
 
-body main .stamp .content_inner .prize_list_item:last-child {
+body main #prize .content_inner .prize_list_item:last-child {
   margin-right: 0;
 }
 
-body main .stamp .content_inner .prize_item_img img {
+body main #prize .content_inner .prize_item_img img {
   display: block;
   height: 250px;
   margin: 0 auto;
   width: auto;
 }
 
-body main .stamp .content_inner .prize_item_annotation {
+body main #prize .content_inner .prize_item_annotation {
   font-size: 12px;
   margin-bottom: 14px;
   margin-top: 35px;
 }
 
-body main .stamp .content_inner .about_stamp {
-  padding: 50px 0 90px 0;
-}
-
-body main .stamp .content_inner .about_stamp_title {
+body main #prize .content_inner .about_stamp_title {
   font-size: 20px;
   font-weight: bold;
 }
 
-body main .stamp .content_inner .about_stamp_box {
+body main #prize .content_inner .about_stamp_img {
+  padding: 0 10%;
+}
+
+body main #prize .content_inner .about_stamp_text {
+  padding-bottom: 90px;
+}
+
+body main #prize .content_inner .about_stamp_text_box {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 35px;
   padding: 0 60px;
 }
 
-body main .stamp .content_inner .about_stamp_box_title {
+body main #prize .content_inner .about_stamp_text_box_title {
   border: 2px solid #f2f2f2;
   padding: 24px 0;
 }
 
-body main .stamp .content_inner .about_stamp_img {
-  padding: 0 10%;
-}
-
-body main .stamp .content_inner .about_stamp_period {
+body main #prize .content_inner .about_stamp_text_period {
   margin-bottom: 50px;
 }
 
-body main .stamp .content_inner .about_stamp_annotation {
+body main #prize .content_inner .about_stamp_text_annotation {
   font-size: 12px;
   padding: 0 40px;
 }
 
-body main .stamp .content_inner .about_stamp_annotation a {
+body main #prize .content_inner .about_stamp_text_annotation a {
   text-decoration: underline;
 }
 
-body main .reward {
+body main #reward {
   margin-bottom: 110px;
   padding: 0 15%;
 }
 
-body main .reward .content_title {
+body main #reward .content_title {
   margin-bottom: 35px;
 }
 
-body main .reward .content_inner {
+body main #reward .content_inner {
   background: #ffffff;
   padding: 30px 0 40px 0;
 }
 
-body main .reward .content_inner .about_reward_text {
+body main #reward .content_inner .about_reward_text {
   padding-bottom: 30px;
 }
 
-body main .reward .content_inner .about_reward_text.strong {
+body main #reward .content_inner .about_reward_text.strong {
   font-size: 20px;
   font-weight: bold;
 }
 
-body main .reward .content_inner .about_reward_annotation {
+body main #reward .content_inner .about_reward_annotation {
   font-size: 12px;
 }
 
-body main .event {
+body main #event {
   background: #ffffff;
   margin-bottom: 110px;
 }
 
-body main .event .content_title {
+body main #event .content_title {
   padding: 50px 0;
 }
 
-body main .event .content_inner {
+body main #event .content_inner {
   padding-bottom: 70px;
 }
 
-body main .event .content_inner .about_event_item {
+body main #event .content_inner .about_event_item {
   padding-bottom: 30px;
 }
 
-body main .event .content_inner .about_event_item:last-child {
+body main #event .content_inner .about_event_item:last-child {
   padding-bottom: 0;
 }
 
-body main .question {
+body main #question {
   margin-bottom: 110px;
 }
 
-body main .question .content_title {
+body main #question .content_title {
   margin-bottom: 60px;
 }
 
-body main .question .content_inner {
+body main #question .content_inner {
   padding: 0 61px;
 }
 
-body main .question_list_item {
+body main #question .content_inner .question_list_item {
   margin-bottom: 35px;
   text-decoration: underline;
 }
 
-body main .appli {
+body main #appli {
   background: #ffffff;
   margin-bottom: 80px;
 }
 
-body main .appli .content_title {
+body main #appli .content_title {
   margin-bottom: 65px;
   padding-top: 50px;
 }
 
-body main .appli .content_inner {
+body main #appli .content_inner {
   padding-bottom: 70px;
 }
 
-body main .appli .content_inner .appli_link.pc {
+body main #appli .content_inner .appli_link.pc {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -308,38 +316,38 @@ body main .appli .content_inner .appli_link.pc {
   width: 350px;
 }
 
-body main .appli .content_inner .appli_link.pc .link_btn {
+body main #appli .content_inner .appli_link.pc .link_btn {
   margin-right: 20px;
 }
 
-body main .appli .content_inner .appli_link.pc .link_btn:last-child {
+body main #appli .content_inner .appli_link.pc .link_btn:last-child {
   margin-right: 0;
 }
 
-body main .appli .content_inner .appli_link.pc .link_btn a {
+body main #appli .content_inner .appli_link.pc .link_btn a {
   display: block;
 }
 
-body main .appli .content_inner .appli_link.pc .link_btn a img {
+body main #appli .content_inner .appli_link.pc .link_btn a img {
   height: auto;
   width: 165px;
 }
 
-body main .appli .content_inner .appli_link.sp .link_btn a {
+body main #appli .content_inner .appli_link.sp .link_btn a {
   display: block;
   margin: 0 auto;
   width: 170px;
 }
 
-body main .appli .content_inner .appli_link.sp .link_btn a img {
+body main #appli .content_inner .appli_link.sp .link_btn a img {
   display: block;
 }
 
-body main .appli .content_inner .introduction_link {
+body main #appli .content_inner .introduction_link {
   padding-top: 80px;
 }
 
-body main .appli .content_inner .introduction_link a {
+body main #appli .content_inner .introduction_link a {
   text-decoration: underline;
 }
 
@@ -404,86 +412,90 @@ body footer .footer_inc a {
   body main .content_title {
     font-size: 20px;
   }
-  body main .top {
+  body main #top {
     margin-bottom: 0px;
     padding: 30px 15%;
   }
-  body main .top .content_title {
+  body main #top .content_title {
     padding-top: 0;
   }
-  body main .top .content_inner {
+  body main #top .content_inner {
     margin: 0px;
     padding-top: 30px;
   }
-  body main .stamp .content_inner .prize_list {
+  body main #prize .content_inner .prize_list {
     display: block;
   }
-  body main .stamp .content_inner .prize_list_period {
+  body main #prize .content_inner .prize_list_period {
     font-size: 18px;
   }
-  body main .stamp .content_inner .prize_list_item {
+  body main #prize .content_inner .prize_list_item {
     margin-right: 0px;
     width: 100%;
   }
-  body main .stamp .content_inner .prize_item_img {
+  body main #prize .content_inner .prize_item_img {
     margin-top: 25px;
     padding: 0 10%;
   }
-  body main .stamp .content_inner .prize_item_img img {
+  body main #prize .content_inner .prize_item_img img {
     height: auto;
     width: 100%;
   }
-  body main .stamp .content_inner .prize_item_text {
+  body main #prize .content_inner .prize_item_text {
     font-size: 14px;
   }
-  body main .stamp .content_inner .about_stamp_title {
+  body main #prize .content_inner .about_stamp_title {
     font-size: 24px;
   }
-  body main .stamp .content_inner .about_stamp_box {
-    font-size: 18px;
-    margin-top: 15px;
-    padding: 0 12%;
-  }
-  body main .stamp .content_inner .about_stamp_box_title {
-    margin: 0 auto;
-    padding: 10px 25px;
-  }
-  body main .stamp .content_inner .about_stamp_img img {
+  body main #prize .content_inner .about_stamp_img img {
     display: block;
     margin: 0 auto;
     width: auto;
   }
-  body main .stamp .content_inner .about_stamp_period {
+  body main #prize .content_inner .about_stamp_text {
+    padding-bottom: 65px;
+  }
+  body main #prize .content_inner .about_stamp_text_box {
+    font-size: 18px;
+    margin-top: 15px;
+    padding: 0 12%;
+  }
+  body main #prize .content_inner .about_stamp_text_box_title {
+    margin: 0 auto;
+    padding: 10px 25px;
+  }
+  body main #prize .content_inner .about_stamp_text_period {
     font-size: 14px;
     line-height: 1.5;
+    margin-bottom: 35px;
   }
-  body main .stamp .content_inner .about_stamp_annotation {
+  body main #prize .content_inner .about_stamp_text_annotation {
     font-size: 10px;
     line-height: 1.5;
   }
-  body main .reward .content_inner {
+  body main #reward .content_inner {
     padding: 40px 5%;
   }
-  body main .event .content_title {
+  body main #event .content_title {
     padding: 0 0 40px 0;
   }
-  body main .event .content_inner {
+  body main #event .content_inner {
     padding: 40px 10%;
   }
-  body main .event .content_inner .about_event_item {
+  body main #event .content_inner .about_event_item {
     text-align: left;
   }
-  body main .question_list_item {
+  body main #question .content_inner .question_list_item {
     font-size: 12px;
     text-align: left;
   }
-  body main .appli .content_title {
+  body main #appli .content_title {
     margin-bottom: 45px;
   }
-  body main .appli .content_inner {
+  body main #appli .content_inner {
     margin: 0px;
   }
-  body main .appli .content_inner .introduction_link {
+  body main #appli .content_inner .introduction_link {
     padding-top: 40px;
   }
   body footer .footer__wrap {

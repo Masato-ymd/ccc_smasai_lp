@@ -449,7 +449,7 @@ body footer .footer_inc a {
     padding-top: 30px;
   }
   body main #prize {
-    padding: 0 10%;
+    padding: 0 8%;
   }
   body main #prize .content_inner {
     padding-top: 35px;
@@ -467,7 +467,7 @@ body footer .footer_inc a {
     width: 100%;
   }
   body main #prize .content_inner .prize_item_img {
-    padding: 0 10%;
+    padding: 0 8%;
   }
   body main #prize .content_inner .prize_item_img img {
     height: auto;
@@ -485,11 +485,11 @@ body footer .footer_inc a {
     display: block;
   }
   body main #prize .content_inner .about_stamp_text {
+    margin-top: 15px;
     padding-bottom: 65px;
   }
   body main #prize .content_inner .about_stamp_text_box {
     font-size: 18px;
-    margin-top: 15px;
     padding: 0;
   }
   body main #prize .content_inner .about_stamp_text_box_title {
@@ -505,7 +505,7 @@ body footer .footer_inc a {
     padding: 0;
   }
   body main #reward {
-    padding: 0 10%;
+    padding: 0 8%;
   }
   body main #reward .content_inner {
     padding: 40px 5%;
@@ -520,7 +520,7 @@ body footer .footer_inc a {
     text-align: left;
   }
   body main #question .content_inner {
-    padding: 0 10%;
+    padding: 0 8%;
   }
   body main #question .content_inner .question_list_item {
     font-size: 12px;

@@ -131,7 +131,7 @@ body {
 			margin-bottom: 80px;
 			padding: 0 40px;
 			@media #{$sp} {
-				padding: 0 10%;
+				padding: 0 8%;
 			}
 			.content {
 				&_title {
@@ -180,7 +180,7 @@ body {
 						&_item {
 							&_img {
 								@media #{$sp} {
-									padding: 0 10%;
+									padding: 0 8%;
 								}
 								img {
 									display: block;
@@ -221,6 +221,7 @@ body {
 						&_text {
 							padding-bottom: 90px;
 							@media #{$sp} {
+								margin-top: 15px;
 								padding-bottom: 65px;
 							}
 							&_box {
@@ -230,7 +231,6 @@ body {
 								margin-bottom: 35px;
 								@media #{$sp} {
 									font-size: 18px;
-									margin-top: 15px;
 									padding: 0;
 								}
 								&_title {
@@ -269,7 +269,7 @@ body {
 			margin-bottom: 110px;
 			padding: 0 15%;
 			@media #{$sp} {
-				padding: 0 10%;
+				padding: 0 8%;
 			}
 			.content {
 				&_title {
@@ -330,7 +330,7 @@ body {
 				&_inner {
 					padding: 0 61px;
 					@media #{$sp} {
-						padding: 0 10%;
+						padding: 0 8%;
 					}
 					.question {
 						&_list {

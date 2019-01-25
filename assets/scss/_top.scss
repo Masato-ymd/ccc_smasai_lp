@@ -37,7 +37,7 @@ body {
 		}
 	}
 	.banner {
-		height: 55px;
+		height: 56px;
 		width: 100%;
 		z-index: 256;
 		transition: 0.2s all ease;
@@ -57,7 +57,7 @@ body {
 		width: 1280px;
 		margin: 0 auto;
 		@media #{$sp} {
-			padding-top: 55px;
+			padding-top: 56px;
 			width: 100%;
 		}
 		.content {

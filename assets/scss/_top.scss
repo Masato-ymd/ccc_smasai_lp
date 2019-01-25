@@ -122,6 +122,9 @@ body {
 				}
 				&_inner {
 					padding-top: 50px;
+					@media #{$sp} {
+						padding-top: 35px;
+					}
 					.prize {
 						&_list {
 							display: -webkit-box;
@@ -144,6 +147,7 @@ body {
 								font-weight: bold;
 								@media #{$sp} {
 									font-size: 18px;
+									padding-bottom: 0;
 								}
 							}
 							&_item {
@@ -161,7 +165,6 @@ body {
 						&_item {
 							&_img {
 								@media #{$sp} {
-									margin-top: 25px;
 									padding: 0 10%;
 								}
 								img {

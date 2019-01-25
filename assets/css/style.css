@@ -423,18 +423,21 @@ body footer .footer_inc a {
     margin: 0px;
     padding-top: 30px;
   }
+  body main #prize .content_inner {
+    padding-top: 35px;
+  }
   body main #prize .content_inner .prize_list {
     display: block;
   }
   body main #prize .content_inner .prize_list_period {
     font-size: 18px;
+    padding-bottom: 0;
   }
   body main #prize .content_inner .prize_list_item {
     margin-right: 0px;
     width: 100%;
   }
   body main #prize .content_inner .prize_item_img {
-    margin-top: 25px;
     padding: 0 10%;
   }
   body main #prize .content_inner .prize_item_img img {

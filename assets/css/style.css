@@ -14,9 +14,18 @@ body {
   text-align: center;
 }
 
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
 h3 {
   font-size: 24px;
   font-weight: 600;
+  margin: 0;
 }
 
 ul {
@@ -129,21 +138,22 @@ body main .content_title {
   color: #000000;
   font-size: 30px;
   font-weight: 600;
+  padding: 50px 0;
 }
 
-body main #top {
-  margin-bottom: 70px;
+body main .content_inner {
+  padding-bottom: 50px;
 }
 
-body main #top .content_title {
-  padding-top: 50px;
+body main #title .main_img img {
+  display: block;
 }
 
 body main #top .content_inner .appli_link.pc {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 45px auto 0 auto;
+  margin: 0 auto;
   width: 350px;
 }
 
@@ -166,7 +176,6 @@ body main #top .content_inner .appli_link.pc .link_btn a img {
 
 body main #top .content_inner .appli_link.sp .sp_link_btn {
   padding: 0 50px;
-  padding-bottom: 40px;
 }
 
 body main #top .content_inner .appli_link.sp .sp_link_btn a {
@@ -179,16 +188,7 @@ body main #top .content_inner .appli_link.sp .sp_link_btn a img {
 
 body main #prize {
   background: #ffffff;
-  margin-bottom: 80px;
   padding: 0 40px;
-}
-
-body main #prize .content_title {
-  padding-top: 50px;
-}
-
-body main #prize .content_inner {
-  padding-top: 50px;
 }
 
 body main #prize .content_inner .prize_list {
@@ -230,15 +230,14 @@ body main #prize .content_inner .prize_item_annotation {
   margin-top: 35px;
 }
 
-body main #prize .content_inner .about_stamp_text {
-  padding-bottom: 90px;
+body main #prize .content_inner .about_stamp_img img {
+  display: block;
 }
 
 body main #prize .content_inner .about_stamp_text_box {
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 35px;
-  padding: 0 60px;
+  padding: 30px 60px;
 }
 
 body main #prize .content_inner .about_stamp_text_box_title {
@@ -260,21 +259,16 @@ body main #prize .content_inner .about_stamp_text_annotation a {
 }
 
 body main #reward {
-  margin-bottom: 110px;
+  margin-bottom: 100px;
   padding: 0 15%;
-}
-
-body main #reward .content_title {
-  margin-bottom: 35px;
 }
 
 body main #reward .content_inner {
   background: #ffffff;
-  padding: 40px 0;
 }
 
 body main #reward .content_inner .about_reward_text {
-  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 body main #reward .content_inner .about_reward_annotation {
@@ -283,15 +277,6 @@ body main #reward .content_inner .about_reward_annotation {
 
 body main #event {
   background: #ffffff;
-  margin-bottom: 110px;
-}
-
-body main #event .content_title {
-  padding: 50px 0;
-}
-
-body main #event .content_inner {
-  padding-bottom: 70px;
 }
 
 body main #event .content_inner .about_event_item {
@@ -302,35 +287,18 @@ body main #event .content_inner .about_event_item:last-child {
   padding-bottom: 0;
 }
 
-body main #question {
-  margin-bottom: 110px;
-}
-
-body main #question .content_title {
-  margin-bottom: 60px;
-}
-
-body main #question .content_inner {
-  padding: 0 61px;
-}
-
 body main #question .content_inner .question_list_item {
   margin-bottom: 35px;
   text-decoration: underline;
 }
 
+body main #question .content_inner .question_list_item:last-child {
+  margin-bottom: 0;
+}
+
 body main #appli {
   background: #ffffff;
-  margin-bottom: 80px;
-}
-
-body main #appli .content_title {
-  margin-bottom: 65px;
-  padding-top: 50px;
-}
-
-body main #appli .content_inner {
-  padding-bottom: 70px;
+  margin-bottom: 100px;
 }
 
 body main #appli .content_inner .appli_link.pc {
@@ -442,23 +410,19 @@ body footer .text + .text {
   body main .content_title {
     font-size: 20px;
     letter-spacing: 2px;
+    padding: 30px 0;
+  }
+  body main .content_inner {
+    padding-bottom: 30px;
   }
   body main #top {
-    margin-bottom: 0px;
-    padding: 30px 10%;
-  }
-  body main #top .content_title {
-    padding-top: 0;
+    padding: 0 10%;
   }
   body main #top .content_inner {
     margin: 0px;
-    padding-top: 30px;
   }
   body main #prize {
     padding: 0 8%;
-  }
-  body main #prize .content_inner {
-    padding-top: 35px;
   }
   body main #prize .content_inner .prize_list {
     display: block;
@@ -482,17 +446,8 @@ body footer .text + .text {
   body main #prize .content_inner .prize_item_text {
     font-size: 14px;
   }
-  body main #prize .content_inner .about_stamp_title {
-    font-size: 24px;
-    margin-bottom: 20px;
-    margin-top: 0;
-  }
-  body main #prize .content_inner .about_stamp_img img {
-    display: block;
-  }
   body main #prize .content_inner .about_stamp_text {
     margin-top: 15px;
-    padding-bottom: 65px;
   }
   body main #prize .content_inner .about_stamp_text_box {
     font-size: 18px;
@@ -504,20 +459,17 @@ body footer .text + .text {
   }
   body main #prize .content_inner .about_stamp_text_period {
     font-size: 14px;
-    margin-bottom: 35px;
+    margin-bottom: 0;
+    padding-top: 30px;
   }
   body main #prize .content_inner .about_stamp_text_annotation {
     font-size: 10px;
     padding: 0;
+    padding-top: 30px;
   }
   body main #reward {
+    margin-bottom: 60px;
     padding: 0 8%;
-  }
-  body main #reward .content_inner {
-    padding: 40px 5%;
-  }
-  body main #event .content_title {
-    padding-top: 40px;
   }
   body main #event .content_inner .about_event {
     padding: 0 40px;
@@ -527,20 +479,14 @@ body footer .text + .text {
   }
   body main #question .content_inner {
     padding: 0 8%;
+    padding-bottom: 30px;
   }
   body main #question .content_inner .question_list_item {
     font-size: 12px;
     text-align: left;
   }
-  body main #appli .content_title {
-    margin-bottom: 45px;
-  }
-  body main #appli .content_inner {
-    margin: 0px;
-    padding: 0 10% 40px 10%;
-  }
-  body main #appli .content_inner .introduction_link {
-    padding-bottom: 35px;
+  body main #appli {
+    margin-bottom: 60px;
   }
   body footer .inner {
     border-top: 1px solid #cccccc;

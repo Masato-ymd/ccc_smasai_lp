@@ -64,35 +64,41 @@ body {
 				color: #000000;
 				font-size: 30px;
 				font-weight: 600;
+				padding: 50px 0;
 				@media #{$sp} {
 					font-size: 20px;
 					letter-spacing: 2px;
+					padding: 30px 0;
+				}
+			}
+			&_inner {
+				padding-bottom: 50px;
+				@media #{$sp} {
+					padding-bottom: 30px;
 				}
 			}
 		}
 
+		#title {
+			.main_img {
+				img {
+					display: block;
+				}
+			}
+		}
 		#top {
-			margin-bottom: 70px;
 			@media #{$sp} {
-				padding: 30px 10%;
-				margin-bottom: 0px;
+				padding: 0 10%;
 			}
 			.content {
-				&_title {
-					padding-top: 50px;
-					@media #{$sp} {
-						padding-top: 0;
-					}
-				}
 				&_inner {
 					@media #{$sp} {
-						padding-top: 30px;
 						margin: 0px;
 					}
 					.appli_link {
 						&.pc {
 							width: 350px;
-							margin: 45px auto 0 auto;
+							margin: 0 auto;
 							display: -webkit-box;
 							display: -ms-flexbox;
 							display: flex;
@@ -113,7 +119,6 @@ body {
 						&.sp {
 							.sp_link_btn {
 								padding: 0 50px;
-								padding-bottom: 40px;
 								a {
 									display: block;
 									img {
@@ -128,20 +133,12 @@ body {
 		}
 		#prize {
 			background: #ffffff;
-			margin-bottom: 80px;
 			padding: 0 40px;
 			@media #{$sp} {
 				padding: 0 8%;
 			}
 			.content {
-				&_title {
-					padding-top: 50px;
-				}
 				&_inner {
-					padding-top: 50px;
-					@media #{$sp} {
-						padding-top: 35px;
-					}
 					.prize {
 						&_list {
 							display: -webkit-box;
@@ -204,31 +201,19 @@ body {
 						}
 					}
 					.about_stamp {
-						&_title {
-							@media #{$sp} {
-								font-size: 24px;
-								margin-top: 0;
-								margin-bottom: 20px;
-							}
-						}
 						&_img {
 							img {
-								@media #{$sp} {
-									display: block;
-								}
+								display: block;
 							}
 						}
 						&_text {
-							padding-bottom: 90px;
 							@media #{$sp} {
 								margin-top: 15px;
-								padding-bottom: 65px;
 							}
 							&_box {
 								font-size: 20px;
 								font-weight: bold;
-								padding: 0 60px;
-								margin-bottom: 35px;
+								padding: 30px 60px;
 								@media #{$sp} {
 									font-size: 18px;
 									padding: 0;
@@ -246,7 +231,8 @@ body {
 								margin-bottom: 50px;
 								@media #{$sp} {
 									font-size: 14px;
-									margin-bottom: 35px;
+									margin-bottom: 0;
+									padding-top: 30px;
 								}
 							}
 							&_annotation {
@@ -255,6 +241,7 @@ body {
 								@media #{$sp} {
 									font-size: 10px;
 									padding: 0;
+									padding-top: 30px;
 								}
 								a {
 									text-decoration: underline;
@@ -266,24 +253,18 @@ body {
 			}
 		}
 		#reward {
-			margin-bottom: 110px;
+			margin-bottom: 100px;
 			padding: 0 15%;
 			@media #{$sp} {
+				margin-bottom: 60px;
 				padding: 0 8%;
 			}
 			.content {
-				&_title {
-					margin-bottom: 35px;
-				}
 				&_inner {
 					background: #ffffff;
-					padding: 40px 0;
-					@media #{$sp} {
-						padding: 40px 5%;
-					}
 					.about_reward {
 						&_text {
-							padding-bottom: 30px;
+							padding-top: 30px;
 						}
 						&_annotation {
 							font-size: 12px;
@@ -294,16 +275,8 @@ body {
 		}
 		#event {
 			background: #ffffff;
-			margin-bottom: 110px;
 			.content {
-				&_title {
-					padding: 50px 0;
-					@media #{$sp} {
-						padding-top: 40px;
-					}
-				}
 				&_inner {
-					padding-bottom: 70px;
 					.about_event {
 						@media #{$sp} {
 							padding: 0 40px;
@@ -322,15 +295,11 @@ body {
 			}
 		}
 		#question {
-			margin-bottom: 110px;
 			.content {
-				&_title {
-					margin-bottom: 60px;
-				}
 				&_inner {
-					padding: 0 61px;
 					@media #{$sp} {
 						padding: 0 8%;
+						padding-bottom: 30px;
 					}
 					.question {
 						&_list {
@@ -341,6 +310,9 @@ body {
 									text-align: left;
 									font-size: 12px;
 								}
+								&:last-child {
+									margin-bottom: 0;
+								}
 							}
 						}
 					}
@@ -349,21 +321,12 @@ body {
 		}
 		#appli {
 			background: #ffffff;
-			margin-bottom: 80px;
+			margin-bottom: 100px;
+			@media #{$sp} {
+				margin-bottom: 60px;
+			}
 			.content {
-				&_title {
-					padding-top: 50px;
-					margin-bottom: 65px;
-					@media #{$sp} {
-						margin-bottom: 45px;
-					}
-				}
 				&_inner {
-					padding-bottom: 70px;
-					@media #{$sp} {
-						margin: 0px;
-						padding: 0 10% 40px 10%;
-					}
 					.appli_link {
 						&.pc {
 							display: -webkit-box;
@@ -401,9 +364,6 @@ body {
 						}
 					}
 					.introduction_link {
-						@media #{$sp} {
-							padding-bottom: 35px;
-						}
 						a {
 							text-decoration: underline
 						}

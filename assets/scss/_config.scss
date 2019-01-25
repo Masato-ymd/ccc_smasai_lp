@@ -20,9 +20,16 @@ body {
 		font-size: 14px;
 	}
 }
+h1 {
+    margin: 0;
+}
+h2 {
+    margin: 0;
+}
 h3 {
     font-size: 24px;
     font-weight: 600;
+    margin: 0;
     @media #{$sp} {
         font-size: 18px;
     }

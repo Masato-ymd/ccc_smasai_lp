@@ -491,6 +491,9 @@ body footer .footer_inc a {
   body main #event .content_inner .about_event_item {
     text-align: left;
   }
+  body main #question .content_inner {
+    padding: 0 8%;
+  }
   body main #question .content_inner .question_list_item {
     font-size: 12px;
     text-align: left;

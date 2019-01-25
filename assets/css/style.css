@@ -5,8 +5,18 @@
 }
 
 body {
-  font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  background: #F2F2F2;
+  color: #4C4C4C;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", " メイリオ", Meiryo, Osaka, sans-serif;
+  line-height: 1.8;
   margin: 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
 }
 
 ul {
@@ -44,18 +54,6 @@ a {
 img {
   height: auto;
   width: 100%;
-}
-
-body {
-  background: #F2F2F2;
-  color: #4C4C4C;
-  line-height: 1.8;
-  text-align: center;
-}
-
-body h2 {
-  font-size: 24px;
-  font-weight: 600;
 }
 
 body header {
@@ -334,6 +332,7 @@ body main #appli .content_inner .appli_link.pc {
   display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
+  padding-bottom: 80px;
   width: 350px;
 }
 
@@ -362,10 +361,6 @@ body main #appli .content_inner .appli_link.sp .link_btn a {
 
 body main #appli .content_inner .appli_link.sp .link_btn a img {
   display: block;
-}
-
-body main #appli .content_inner .introduction_link {
-  padding-top: 80px;
 }
 
 body main #appli .content_inner .introduction_link a {
@@ -413,17 +408,17 @@ body footer .footer_inc a {
 }
 
 @media only screen and (max-width: 769px) {
+  body {
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 18px;
+  }
   .pc {
     display: none !important;
   }
   .sp {
     display: block;
-  }
-  body {
-    font-size: 14px;
-  }
-  body h2 {
-    font-size: 18px;
   }
   body header {
     display: none;
@@ -530,9 +525,10 @@ body footer .footer_inc a {
   }
   body main #appli .content_inner {
     margin: 0px;
+    padding: 0 10% 40px 10%;
   }
   body main #appli .content_inner .introduction_link {
-    padding-top: 40px;
+    padding-bottom: 35px;
   }
   body footer .footer__wrap {
     display: block;

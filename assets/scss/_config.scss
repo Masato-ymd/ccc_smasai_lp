@@ -1,12 +1,33 @@
 @charset "utf-8";
 
+// color
+$main_color: #ad061c;
+// Media query
+$sp: "only screen and (max-width:769px)";
+
 * {
     box-sizing: border-box;
 }
 body {
     margin: 0;
-    font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", " メイリオ", Meiryo, Osaka, sans-serif;
+    -webkit-text-size-adjust: 100%;
+    background: #F2F2F2;
+	text-align: center;
+	color: #4C4C4C;
+	line-height: 1.8;
+	@media #{$sp} {
+		font-size: 14px;
+	}
 }
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    @media #{$sp} {
+        font-size: 18px;
+    }
+}
+
 ul {
     list-style: none;
     padding: 0;
@@ -19,12 +40,6 @@ a {
     text-decoration: none;
     color: unset;
 }
-
-
-// color
-$main_color: #ad061c;
-// Media query
-$sp: "only screen and (max-width:769px)";
 
 // clearfix
 .clearfix:after{

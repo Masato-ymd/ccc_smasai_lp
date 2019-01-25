@@ -16,7 +16,10 @@ body {
     box-sizing: border-box;
     background-color: #f2f2f2;
     width: 1280px;
-    height: 50px;
+		height: 50px;
+		@media #{$sp} {
+			display: none;
+		}
 		.logo{
 			background-repeat: no-repeat;
 			font-size: 0;
@@ -34,7 +37,7 @@ body {
 		}
 	}
 	.banner {
-		height: 65px;
+		height: 55px;
 		width: 100%;
 		z-index: 256;
 		transition: 0.2s all ease;
@@ -54,7 +57,7 @@ body {
 		width: 1280px;
 		margin: 0 auto;
 		@media #{$sp} {
-			padding-top: 60px;
+			padding-top: 55px;
 			width: 100%;
 		}
 		.content {

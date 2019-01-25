@@ -273,6 +273,11 @@ body {
 		#event {
 			background: #ffffff;
 			.content {
+				&_title {
+					@media #{$sp} {
+					letter-spacing: 0;
+					}
+				}
 				&_inner {
 					.about_event {
 						@media #{$sp} {

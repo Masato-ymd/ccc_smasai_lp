@@ -475,6 +475,9 @@ body footer .text + .text {
     padding-left: 10%;
     padding-right: 10%;
   }
+  body main #event .content_title {
+    letter-spacing: 0;
+  }
   body main #event .content_inner .about_event {
     padding: 0 40px;
   }

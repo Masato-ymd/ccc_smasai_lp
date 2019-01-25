@@ -202,7 +202,7 @@ body main #prize .content_inner .prize_list {
 
 body main #prize .content_inner .prize_list_wrap {
   border-bottom: solid 2px #F2F2F2;
-  margin-bottom: 60px;
+  margin: 0 40px 60px 40px;
   padding-bottom: 30px;
 }
 
@@ -426,6 +426,9 @@ body footer .text + .text {
   body main #prize .content_inner .prize_list {
     display: block;
     padding: 0;
+  }
+  body main #prize .content_inner .prize_list_wrap {
+    margin: 0 0 60px 0;
   }
   body main #prize .content_inner .prize_list_period {
     font-size: 18px;

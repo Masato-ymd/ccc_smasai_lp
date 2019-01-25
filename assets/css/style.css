@@ -355,6 +355,10 @@ body main #appli .content_inner .appli_link.pc .link_btn a img {
   width: 165px;
 }
 
+body main #appli .content_inner .appli_link.sp .link_btn {
+  padding-bottom: 45px;
+}
+
 body main #appli .content_inner .appli_link.sp .link_btn a {
   display: block;
   margin: 0 auto;

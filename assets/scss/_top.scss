@@ -259,6 +259,9 @@ body {
 		#reward {
 			margin-bottom: 110px;
 			padding: 0 15%;
+			@media #{$sp} {
+				padding: 0 10%;
+			}
 			.content {
 				&_title {
 					margin-bottom: 35px;

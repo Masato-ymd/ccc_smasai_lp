@@ -476,6 +476,9 @@ body footer .footer_inc a {
     font-size: 10px;
     line-height: 1.5;
   }
+  body main #reward {
+    padding: 0 10%;
+  }
   body main #reward .content_inner {
     padding: 40px 5%;
   }

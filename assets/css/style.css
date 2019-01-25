@@ -49,7 +49,13 @@ img {
 body {
   background: #F2F2F2;
   color: #4C4C4C;
+  line-height: 1.8;
   text-align: center;
+}
+
+body h2 {
+  font-size: 24px;
+  font-weight: 600;
 }
 
 body header {
@@ -117,7 +123,6 @@ body main .content_title {
   color: #000000;
   font-size: 30px;
   font-weight: 600;
-  line-height: 1.5;
 }
 
 body main #top {
@@ -169,6 +174,7 @@ body main #top .content_inner .appli_link.sp .link_btn a img {
 body main #prize {
   background: #ffffff;
   margin-bottom: 80px;
+  padding: 0 40px;
 }
 
 body main #prize .content_title {
@@ -196,14 +202,11 @@ body main #prize .content_inner .prize_list_wrap:last-child {
 }
 
 body main #prize .content_inner .prize_list_period {
-  font-size: 20px;
-  font-weight: bold;
   padding-bottom: 40px;
 }
 
 body main #prize .content_inner .prize_list_item {
-  margin-right: 55px;
-  width: 350px;
+  width: 400px;
 }
 
 body main #prize .content_inner .prize_list_item:last-child {
@@ -212,20 +215,13 @@ body main #prize .content_inner .prize_list_item:last-child {
 
 body main #prize .content_inner .prize_item_img img {
   display: block;
-  height: 250px;
   margin: 0 auto;
-  width: auto;
 }
 
 body main #prize .content_inner .prize_item_annotation {
   font-size: 12px;
   margin-bottom: 14px;
   margin-top: 35px;
-}
-
-body main #prize .content_inner .about_stamp_title {
-  font-size: 20px;
-  font-weight: bold;
 }
 
 body main #prize .content_inner .about_stamp_img {
@@ -272,16 +268,11 @@ body main #reward .content_title {
 
 body main #reward .content_inner {
   background: #ffffff;
-  padding: 30px 0 40px 0;
+  padding: 40px 0;
 }
 
 body main #reward .content_inner .about_reward_text {
   padding-bottom: 30px;
-}
-
-body main #reward .content_inner .about_reward_text.strong {
-  font-size: 20px;
-  font-weight: bold;
 }
 
 body main #reward .content_inner .about_reward_annotation {
@@ -459,6 +450,7 @@ body footer .footer_inc a {
   }
   body main #prize .content_inner .prize_list {
     display: block;
+    padding: 0;
   }
   body main #prize .content_inner .prize_list_period {
     font-size: 18px;
@@ -500,12 +492,10 @@ body footer .footer_inc a {
   }
   body main #prize .content_inner .about_stamp_text_period {
     font-size: 14px;
-    line-height: 1.5;
     margin-bottom: 35px;
   }
   body main #prize .content_inner .about_stamp_text_annotation {
     font-size: 10px;
-    line-height: 1.5;
   }
   body main #reward {
     padding: 0 10%;

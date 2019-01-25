@@ -232,6 +232,10 @@ body main #prize .content_inner .prize_item_annotation {
   margin-top: 15px;
 }
 
+body main #prize .content_inner .about_stamp_img {
+  padding: 0 40px;
+}
+
 body main #prize .content_inner .about_stamp_img img {
   display: block;
 }
@@ -441,6 +445,9 @@ body footer .text + .text {
   }
   body main #prize .content_inner .prize_item_text {
     font-size: 14px;
+  }
+  body main #prize .content_inner .about_stamp_img {
+    padding: 0 10%;
   }
   body main #prize .content_inner .about_stamp_text {
     margin-top: 15px;

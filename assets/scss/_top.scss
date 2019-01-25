@@ -194,6 +194,10 @@ body {
 					}
 					.about_stamp {
 						&_img {
+							padding: 0 40px;
+							@media #{$sp} {
+								padding: 0 10%;
+							}
 							img {
 								display: block;
 							}

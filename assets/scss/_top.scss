@@ -145,7 +145,7 @@ body {
 								padding-bottom: 30px;
 								border-bottom: solid 2px #F2F2F2;
 								@media #{$sp} {
-									margin: 0 0 60px 0;
+									margin: 0 8% 60px 8%;
 								}
 								&:last-child {
 									margin-bottom: 0;
@@ -172,9 +172,6 @@ body {
 						}
 						&_item {
 							&_img {
-								@media #{$sp} {
-									padding: 0 8%;
-								}
 								img {
 									display: block;
 									margin: 0 auto;

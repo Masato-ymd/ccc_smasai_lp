@@ -428,7 +428,7 @@ body footer .text + .text {
     padding: 0;
   }
   body main #prize .content_inner .prize_list_wrap {
-    margin: 0 0 60px 0;
+    margin: 0 8% 60px 8%;
   }
   body main #prize .content_inner .prize_list_period {
     font-size: 18px;
@@ -438,9 +438,6 @@ body footer .text + .text {
     margin-right: 0px;
     margin-top: 40px;
     width: 100%;
-  }
-  body main #prize .content_inner .prize_item_img {
-    padding: 0 8%;
   }
   body main #prize .content_inner .prize_item_img img {
     height: auto;

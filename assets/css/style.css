@@ -369,7 +369,7 @@ body footer .text + .text {
   margin-left: 30px;
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 768px) {
   body {
     font-size: 14px;
   }
@@ -398,19 +398,6 @@ body footer .text + .text {
   }
   body main .content_inner {
     margin: 30px auto 0;
-  }
-  body main #title .content_inner .appli_link {
-    display: block;
-    height: auto;
-    margin: 0 auto;
-    width: 163px;
-  }
-  body main #title .content_inner .appli_link .link_btn {
-    margin-right: 0;
-  }
-  body main #title .content_inner .appli_link .link_btn img {
-    margin: 0 auto;
-    width: 100%;
   }
   body main #prize .content_inner .prize_list {
     display: block;
@@ -491,19 +478,6 @@ body footer .text + .text {
   body main #appli {
     margin-bottom: 50px;
   }
-  body main #appli .content_inner .appli_link {
-    display: block;
-    height: auto;
-    margin: 0 auto;
-    width: 163px;
-  }
-  body main #appli .content_inner .appli_link .link_btn {
-    margin-right: 0;
-  }
-  body main #appli .content_inner .appli_link .link_btn img {
-    margin: 0 auto;
-    width: 100%;
-  }
   body main #appli .content_inner .introduction_link {
     margin-top: 15px;
   }
@@ -547,6 +521,35 @@ body footer .text + .text {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body main #title .content_inner .appli_link {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    width: 163px;
+  }
+  body main #title .content_inner .appli_link .link_btn {
+    margin-right: 0;
+  }
+  body main #title .content_inner .appli_link .link_btn img {
+    margin: 0 auto;
+    width: 100%;
+  }
+  body main #appli .content_inner .appli_link {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    width: 163px;
+  }
+  body main #appli .content_inner .appli_link .link_btn {
+    margin-right: 0;
+  }
+  body main #appli .content_inner .appli_link .link_btn img {
+    margin: 0 auto;
+    width: 100%;
   }
 }
 

@@ -270,7 +270,7 @@
 	<script>
 		// 端末判定
 		var w = $(window).width();
-		if (w <= 768) {
+		if (w < 768) {
 			if (navigator.userAgent.indexOf("iPhone") > 0 && -1 == navigator.userAgent.indexOf("iPad") || navigator.userAgent.indexOf("iPod") > 0) {
 			$('.link_btn.android').addClass('hide');
 			} else {

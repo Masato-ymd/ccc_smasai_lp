@@ -27,7 +27,6 @@ body {
 			background: #F1CF07;
 			width: 172px;
 			padding: 2px;
-			// padding-top: 1px;
 			a {
 				display: block;
 			}
@@ -70,7 +69,6 @@ body {
 				color: #000000;
 				font-size: 35px;
 				font-weight: 600;
-				// padding-bottom: 40px;
 				@media #{$sp} {
 					font-size: 20px;
 					letter-spacing: 2px;
@@ -96,34 +94,33 @@ body {
 				&_inner {
 					margin-top: 20px;
 					.appli_link {
-						&.pc {
-							width: 350px;
-							margin: 0 auto;
-							display: -webkit-box;
-							display: -ms-flexbox;
-							display: flex;
-							.link_btn {
-								margin-right: 20px;
-								&:last-child {
-									margin-right: 0;
-								}
-								a {
-									display: block;
-									img {
-										width: 160px;
-										height: auto;
-									}
-								}
-							}
-						}
-						&.sp {
+						width: 350px;
+						margin: 0 auto;
+						display: -webkit-box;
+						display: -ms-flexbox;
+						display: flex;
+						@media #{$sp} {
 							width: 163px;
 							height: auto;
 							margin: 0 auto;
-							.sp_link_btn {
+							display: block;
+						}
+						.link_btn {
+							margin-right: 20px;
+							display: block;
+							@media #{$sp} {
+								margin-right: 0;
+							}
+							&:last-child {
+								margin-right: 0;
+							}
+							img {
+								width: 160px;
+								height: auto;
 								display: block;
-								img {
-									display: block;
+								@media #{$sp} {
+									width: 100%;
+									margin: 0 auto;
 								}
 							}
 						}
@@ -344,34 +341,33 @@ body {
 				&_inner {
 					margin-top: 20px;
 					.appli_link {
-						&.pc {
-							display: -webkit-box;
-							display: -ms-flexbox;
-							display: flex;
-							width: 350px;
-							margin: 0 auto;
-							.link_btn {
-								margin-right: 20px;
-								&:last-child {
-									margin-right: 0;
-								}
-								a {
-									display: block;
-									img {
-										width: 165px;
-										height: auto;
-									}
-								}
-							}
-						}
-						&.sp {
+						width: 350px;
+						margin: 0 auto;
+						display: -webkit-box;
+						display: -ms-flexbox;
+						display: flex;
+						@media #{$sp} {
 							width: 163px;
 							height: auto;
 							margin: 0 auto;
-							.sp_link_btn {
+							display: block;
+						}
+						.link_btn {
+							margin-right: 20px;
+							display: block;
+							@media #{$sp} {
+								margin-right: 0;
+							}
+							&:last-child {
+								margin-right: 0;
+							}
+							img {
+								width: 160px;
+								height: auto;
 								display: block;
-								img {
-									display: block;
+								@media #{$sp} {
+									width: 100%;
+									margin: 0 auto;
 								}
 							}
 						}

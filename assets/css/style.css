@@ -147,7 +147,7 @@ body main #title .content_inner {
   margin-top: 20px;
 }
 
-body main #title .content_inner .appli_link.pc {
+body main #title .content_inner .appli_link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -155,35 +155,19 @@ body main #title .content_inner .appli_link.pc {
   width: 350px;
 }
 
-body main #title .content_inner .appli_link.pc .link_btn {
+body main #title .content_inner .appli_link .link_btn {
+  display: block;
   margin-right: 20px;
 }
 
-body main #title .content_inner .appli_link.pc .link_btn:last-child {
+body main #title .content_inner .appli_link .link_btn:last-child {
   margin-right: 0;
 }
 
-body main #title .content_inner .appli_link.pc .link_btn a {
+body main #title .content_inner .appli_link .link_btn img {
   display: block;
-}
-
-body main #title .content_inner .appli_link.pc .link_btn a img {
   height: auto;
   width: 160px;
-}
-
-body main #title .content_inner .appli_link.sp {
-  height: auto;
-  margin: 0 auto;
-  width: 163px;
-}
-
-body main #title .content_inner .appli_link.sp .sp_link_btn {
-  display: block;
-}
-
-body main #title .content_inner .appli_link.sp .sp_link_btn img {
-  display: block;
 }
 
 body main #prize {
@@ -312,7 +296,7 @@ body main #appli .content_inner {
   margin-top: 20px;
 }
 
-body main #appli .content_inner .appli_link.pc {
+body main #appli .content_inner .appli_link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -320,35 +304,19 @@ body main #appli .content_inner .appli_link.pc {
   width: 350px;
 }
 
-body main #appli .content_inner .appli_link.pc .link_btn {
+body main #appli .content_inner .appli_link .link_btn {
+  display: block;
   margin-right: 20px;
 }
 
-body main #appli .content_inner .appli_link.pc .link_btn:last-child {
+body main #appli .content_inner .appli_link .link_btn:last-child {
   margin-right: 0;
 }
 
-body main #appli .content_inner .appli_link.pc .link_btn a {
+body main #appli .content_inner .appli_link .link_btn img {
   display: block;
-}
-
-body main #appli .content_inner .appli_link.pc .link_btn a img {
   height: auto;
-  width: 165px;
-}
-
-body main #appli .content_inner .appli_link.sp {
-  height: auto;
-  margin: 0 auto;
-  width: 163px;
-}
-
-body main #appli .content_inner .appli_link.sp .sp_link_btn {
-  display: block;
-}
-
-body main #appli .content_inner .appli_link.sp .sp_link_btn img {
-  display: block;
+  width: 160px;
 }
 
 body main #appli .content_inner .introduction_link {
@@ -431,6 +399,19 @@ body footer .text + .text {
   body main .content_inner {
     margin: 30px auto 0;
   }
+  body main #title .content_inner .appli_link {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    width: 163px;
+  }
+  body main #title .content_inner .appli_link .link_btn {
+    margin-right: 0;
+  }
+  body main #title .content_inner .appli_link .link_btn img {
+    margin: 0 auto;
+    width: 100%;
+  }
   body main #prize .content_inner .prize_list {
     display: block;
     padding: 0;
@@ -509,6 +490,19 @@ body footer .text + .text {
   }
   body main #appli {
     margin-bottom: 50px;
+  }
+  body main #appli .content_inner .appli_link {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    width: 163px;
+  }
+  body main #appli .content_inner .appli_link .link_btn {
+    margin-right: 0;
+  }
+  body main #appli .content_inner .appli_link .link_btn img {
+    margin: 0 auto;
+    width: 100%;
   }
   body main #appli .content_inner .introduction_link {
     margin-top: 15px;

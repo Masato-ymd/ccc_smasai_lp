@@ -17,7 +17,7 @@
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="スマホサイフ｜アプリでスタンプラリー">
 	<meta name="twitter:description" content="名古屋ラーメンまつり2019、2/1開幕！＜スマホサイフ＞アプリでスタンプラリー開催♪全国から集結した至極のラーメンを制覇して、限定グッズをGET!!">
-	<meta name="twitter:image" content="https://www.smasai.jp/campaign/ramen/assets/img/ogimage.png">
+	<meta name="twitter:image" 	content="https://www.smasai.jp/campaign/ramen/assets/img/ogimage.png">
 	<meta name="twitter:url" content="https://www.smasai.jp/campaign/ramen/">
 	<title>スマホサイフ | アプリでスタンプラリー in 名古屋ラーメンまつり2019</title>
 	<link href="./assets/css/reset.css" rel="stylesheet" type="text/css" media="all" />
@@ -62,17 +62,9 @@
 				&lt;スマホサイフ&gt;アプリで<br class="sp">スタンプラリー！<br>限定グッズ、もらえます！
 			</h1>
 			<div class="content_inner">
-				<div class="appli_link pc">
-					<div class="link_btn">
-							<a href="https://itunes.apple.com/jp/app/sumahosaifu/id1062197653?l=ja&ls=1&mt=8"><img src="./assets/img/app_btn_ios_pc.png" alt="iOS"></a>
-					</div>
-					<div class="link_btn">
-							<a href="https://play.google.com/store/apps/details?id=jp.smasai.android"><img src="./assets/img/app_btn_and_pc.png" alt="android"></a>
-						</div>
-				</div>
-				<div class="appli_link sp">
-					<a class="sp_link_btn ios" href="https://itunes.apple.com/jp/app/sumahosaifu/id1062197653?l=ja&ls=1&mt=8"><img src="./assets/img/app_btn_ios.png" alt="iOS"></a>
-					<a  class="sp_link_btn android" href="https://play.google.com/store/apps/details?id=jp.smasai.android"><img src="./assets/img/app_btn_and.png" alt="android"></a>
+				<div class="appli_link">
+					<a class="link_btn ios" href="https://itunes.apple.com/jp/app/sumahosaifu/id1062197653?l=ja&ls=1&mt=8"><img src="./assets/img/app_btn_ios.png" alt="iOS"></a>
+					<a  class="link_btn android" href="https://play.google.com/store/apps/details?id=jp.smasai.android"><img src="./assets/img/app_btn_and.png" alt="android"></a>
 				</div>
 			</div>
 		</article>
@@ -259,17 +251,9 @@
 				スタンプラリーに<br class="sp">参加しよう
 			</h2>
 			<div class="content_inner">
-				<div class="appli_link pc">
-					<div class="link_btn">
-							<a href="https://itunes.apple.com/jp/app/sumahosaifu/id1062197653?l=ja&ls=1&mt=8"><img src="./assets/img/app_btn_ios_pc.png" alt="iOS"></a>
-					</div>
-					<div class="link_btn">
-							<a href="https://play.google.com/store/apps/details?id=jp.smasai.android"><img src="./assets/img/app_btn_and_pc.png" alt="android"></a>
-						</div>
-				</div>
-				<div class="appli_link sp">
-					<a class="sp_link_btn ios" href="https://itunes.apple.com/jp/app/sumahosaifu/id1062197653?l=ja&ls=1&mt=8"><img src="./assets/img/app_btn_ios.png" alt="iOS"></a>
-					<a class="sp_link_btn android" href="https://play.google.com/store/apps/details?id=jp.smasai.android"><img src="./assets/img/app_btn_and.png" alt="android"></a>
+				<div class="appli_link">
+					<a class="link_btn ios" href="https://itunes.apple.com/jp/app/sumahosaifu/id1062197653?l=ja&ls=1&mt=8"><img src="./assets/img/app_btn_ios.png" alt="iOS"></a>
+					<a  class="link_btn android" href="https://play.google.com/store/apps/details?id=jp.smasai.android"><img src="./assets/img/app_btn_and.png" alt="android"></a>
 				</div>
 				<div class="introduction_link"><a href="https://www.smasai.jp/" target="_blank">＜スマホサイフ＞アプリ紹介ページはこちら</a></div>
 			</div>
@@ -285,10 +269,13 @@
 
 	<script>
 		// 端末判定
-		if (navigator.userAgent.indexOf("iPhone") > 0 && -1 == navigator.userAgent.indexOf("iPad") || navigator.userAgent.indexOf("iPod") > 0) {
-			$('.sp_link_btn.android').addClass('hide');
-		}else {
-			$('.sp_link_btn.ios').addClass('hide');
+		var w = $(window).width();
+		if (w <= 768) {
+			if (navigator.userAgent.indexOf("iPhone") > 0 && -1 == navigator.userAgent.indexOf("iPad") || navigator.userAgent.indexOf("iPod") > 0) {
+			$('.link_btn.android').addClass('hide');
+			} else {
+				$('.link_btn.ios').addClass('hide');
+			}
 		}
 	</script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>

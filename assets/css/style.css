@@ -61,7 +61,7 @@ a {
 }
 
 .hide {
-  display: none;
+  display: none !important;
 }
 
 img {
@@ -135,14 +135,17 @@ body main {
 }
 
 body main .contents {
-  padding: 50px 0;
+  padding: 100px 0;
 }
 
 body main .content_title {
   color: #000000;
   font-size: 30px;
   font-weight: 600;
-  padding-bottom: 50px;
+}
+
+body main .content_inner {
+  margin: 40px auto 0;
 }
 
 body main #title .main_img img {
@@ -174,24 +177,22 @@ body main #top .content_inner .appli_link.pc .link_btn a img {
   width: 160px;
 }
 
-body main #top .content_inner .appli_link.sp .sp_link_btn {
-  padding: 0 50px;
+body main #top .content_inner .appli_link.sp {
+  height: auto;
+  margin: 0 auto;
+  width: 163px;
 }
 
-body main #top .content_inner .appli_link.sp .sp_link_btn a {
+body main #top .content_inner .appli_link.sp .sp_link_btn {
   display: block;
 }
 
-body main #top .content_inner .appli_link.sp .sp_link_btn a img {
+body main #top .content_inner .appli_link.sp .sp_link_btn img {
   display: block;
 }
 
 body main #prize {
   background: #ffffff;
-}
-
-body main #prize .content_inner .prize_content {
-  margin-bottom: 50px;
 }
 
 body main #prize .content_inner .prize_list {
@@ -202,12 +203,8 @@ body main #prize .content_inner .prize_list {
 
 body main #prize .content_inner .prize_list_wrap {
   border-bottom: solid 2px #F2F2F2;
-  margin: 0 40px 60px 40px;
+  margin: 40px 40px 0 40px;
   padding-bottom: 30px;
-}
-
-body main #prize .content_inner .prize_list_wrap:last-child {
-  margin-bottom: 0;
 }
 
 body main #prize .content_inner .prize_list_period {
@@ -230,6 +227,10 @@ body main #prize .content_inner .prize_item_img img {
 body main #prize .content_inner .prize_item_annotation {
   font-size: 12px;
   margin-top: 15px;
+}
+
+body main #prize .content_inner .about_stamp_title {
+  margin-top: 40px;
 }
 
 body main #prize .content_inner .about_stamp_img {
@@ -270,10 +271,12 @@ body main #reward {
 
 body main #reward .content_inner {
   background: #ffffff;
+  margin: 40px auto 0;
+  width: 960px;
 }
 
 body main #reward .content_inner .about_reward {
-  padding: 50px 0;
+  padding: 100px 0;
 }
 
 body main #reward .content_inner .about_reward_text {
@@ -286,6 +289,10 @@ body main #reward .content_inner .about_reward_annotation {
 
 body main #event {
   background: #ffffff;
+}
+
+body main #event .content_inner .about_event {
+  margin: 40px auto 0;
 }
 
 body main #event .content_inner .about_event_item {
@@ -336,18 +343,22 @@ body main #appli .content_inner .appli_link.pc .link_btn a img {
   width: 165px;
 }
 
-body main #appli .content_inner .appli_link.sp .sp_link_btn {
-  padding-bottom: 45px;
-}
-
-body main #appli .content_inner .appli_link.sp .sp_link_btn a {
-  display: block;
+body main #appli .content_inner .appli_link.sp {
+  height: auto;
   margin: 0 auto;
-  width: 170px;
+  width: 163px;
 }
 
-body main #appli .content_inner .appli_link.sp .sp_link_btn a img {
+body main #appli .content_inner .appli_link.sp .sp_link_btn {
   display: block;
+}
+
+body main #appli .content_inner .appli_link.sp .sp_link_btn img {
+  display: block;
+}
+
+body main #appli .content_inner .introduction_link {
+  margin-top: 15px;
 }
 
 body main #appli .content_inner .introduction_link a {
@@ -416,19 +427,22 @@ body footer .text + .text {
     padding-top: 56px;
     width: 100%;
   }
+  body main .contents {
+    padding: 40px 0;
+  }
   body main .content_title {
     font-size: 20px;
     letter-spacing: 2px;
   }
-  body main #top .content_inner {
-    margin: 0px;
+  body main .content_inner {
+    margin: 30px auto 0;
   }
   body main #prize .content_inner .prize_list {
     display: block;
     padding: 0;
   }
   body main #prize .content_inner .prize_list_wrap {
-    margin: 0 8% 60px 8%;
+    margin: 35px auto 0;
   }
   body main #prize .content_inner .prize_list_period {
     font-size: 18px;
@@ -475,6 +489,12 @@ body footer .text + .text {
     padding-left: 10%;
     padding-right: 10%;
   }
+  body main #reward .content_inner {
+    width: 100%;
+  }
+  body main #reward .content_inner .about_reward {
+    padding: 50px 0;
+  }
   body main #event .content_title {
     letter-spacing: 0;
   }
@@ -485,8 +505,9 @@ body footer .text + .text {
     text-align: left;
   }
   body main #question .content_inner {
-    padding: 0 8%;
-    padding-bottom: 30px;
+    margin: 35px auto 0;
+    padding: 0;
+    width: 280px;
   }
   body main #question .content_inner .question_list_item {
     font-size: 12px;

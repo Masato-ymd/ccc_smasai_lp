@@ -478,19 +478,6 @@ body footer .text + .text {
   body main #appli {
     margin-bottom: 50px;
   }
-  body main #appli .content_inner .appli_link {
-    display: block;
-    height: auto;
-    margin: 0 auto;
-    width: 163px;
-  }
-  body main #appli .content_inner .appli_link .link_btn {
-    margin-right: 0;
-  }
-  body main #appli .content_inner .appli_link .link_btn img {
-    margin: 0 auto;
-    width: 100%;
-  }
   body main #appli .content_inner .introduction_link {
     margin-top: 15px;
   }
@@ -548,6 +535,19 @@ body footer .text + .text {
     margin-right: 0;
   }
   body main #title .content_inner .appli_link .link_btn img {
+    margin: 0 auto;
+    width: 100%;
+  }
+  body main #appli .content_inner .appli_link {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    width: 163px;
+  }
+  body main #appli .content_inner .appli_link .link_btn {
+    margin-right: 0;
+  }
+  body main #appli .content_inner .appli_link .link_btn img {
     margin: 0 auto;
     width: 100%;
   }

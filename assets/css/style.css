@@ -5,48 +5,38 @@
           box-sizing: border-box;
 }
 
+body, h1, h2, h3, ul, p {
+  margin: 0;
+}
+
 body {
   -webkit-text-size-adjust: 100%;
-  background: #F2F2F2;
-  color: #4C4C4C;
+  background: #f2f2f2;
+  color: #4c4c4c;
   font-family: "Noto Sans JP", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", " メイリオ", Meiryo, Osaka, sans-serif;
   line-height: 1.8;
   margin: 0;
   text-align: center;
 }
 
-img {
-  height: auto;
-  width: 100%;
-}
-
-h1 {
-  margin: 0;
-}
-
-h2 {
-  margin: 0;
-}
-
 h3 {
   font-size: 24px;
   font-weight: 600;
-  margin: 0;
 }
 
 ul {
   list-style: none;
-  margin: 0;
   padding: 0;
-}
-
-p {
-  margin: 0;
 }
 
 a {
   color: #4C4C4C;
   text-decoration: none;
+}
+
+img {
+  height: auto;
+  width: 100%;
 }
 
 .clearfix {
@@ -141,7 +131,7 @@ body main .contents {
 
 body main .content_title {
   color: #000000;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 600;
 }
 
@@ -151,6 +141,10 @@ body main .content_inner {
 
 body main #title .main_img img {
   display: block;
+}
+
+body main #top .content_inner {
+  margin-top: 20px;
 }
 
 body main #top .content_inner .appli_link.pc {
@@ -268,8 +262,8 @@ body main #prize .content_inner .about_stamp_text_annotation a {
 
 body main #reward .content_inner {
   background: #ffffff;
-  margin: 30px auto 0;
-  width: 960px;
+  margin: 40px auto 0;
+  width: 830px;
 }
 
 body main #reward .content_inner .about_reward {
@@ -314,6 +308,10 @@ body main #appli {
   margin-bottom: 100px;
 }
 
+body main #appli .content_inner {
+  margin-top: 20px;
+}
+
 body main #appli .content_inner .appli_link.pc {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -354,7 +352,7 @@ body main #appli .content_inner .appli_link.sp .sp_link_btn img {
 }
 
 body main #appli .content_inner .introduction_link {
-  margin: 40px auto 0;
+  margin: 30px auto 0;
 }
 
 body main #appli .content_inner .introduction_link a {

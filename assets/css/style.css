@@ -9,7 +9,7 @@ body {
   -webkit-text-size-adjust: 100%;
   background: #F2F2F2;
   color: #4C4C4C;
-  font-family: "Noto Sans JP", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+  font-family: "Noto Sans JP", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", " メイリオ", Meiryo, Osaka, sans-serif;
   line-height: 1.8;
   margin: 0;
   text-align: center;

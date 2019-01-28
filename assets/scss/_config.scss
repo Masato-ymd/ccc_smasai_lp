@@ -21,6 +21,10 @@ body {
 		font-size: 14px;
 	}
 }
+img {
+    width: 100%;
+    height: auto;
+}
 h1 {
     margin: 0;
 }
@@ -35,7 +39,6 @@ h3 {
         font-size: 18px;
     }
 }
-
 ul {
     list-style: none;
     padding: 0;
@@ -50,16 +53,16 @@ a {
 }
 
 // clearfix
-.clearfix:after{
-    content: ".";
-    display: block;
-    height: 0;
-    font-size:0;
-    clear: both;
-    visibility:hidden;
-}
 .clearfix{
     display: block;
+    &:after {
+        content: ".";
+        display: block;
+        height: 0;
+        font-size:0;
+        clear: both;
+        visibility:hidden;
+    }
 }
 .pc {
     @media #{$sp} {
@@ -74,9 +77,4 @@ a {
 }
 .hide {
     display: none !important;
-}
-// img
-img {
-    width: 100%;
-    height: auto;
 }

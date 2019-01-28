@@ -80,7 +80,7 @@ body header {
 }
 
 body header .logo {
-  background-image: url(../images/header_logo.png);
+  background-image: url(../img/header_logo.png);
   background-repeat: no-repeat;
   font-size: 0;
   height: 16px;
@@ -110,7 +110,7 @@ body .banner {
 }
 
 body .banner .img {
-  background-image: url(../images/banner_sp.png);
+  background-image: url(../img/banner_sp.png);
   background-repeat: no-repeat;
   background-size: 100%;
   display: block;

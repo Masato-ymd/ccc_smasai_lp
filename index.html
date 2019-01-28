@@ -46,7 +46,7 @@
 	</a>
 
 	<main>
-		<article id="top">
+		<div id="top">
 			<div class="content__wrap">
 				<div class="main_img pc">
 					<img src="./assets/images/pc_mv.png" alt="トップ画像">
@@ -55,11 +55,11 @@
 					<img src="./assets/images/sp_mv.png" alt="トップ画像">
 				</div>
 			</div>
-		</article>
+		</div>
 
 		<article id="title" class="contents">
 			<h1 class="content_title">
-				<スマホサイフ>アプリで<br class="sp">スタンプラリー！<br>限定グッズ、もらえます！
+				&lt;スマホサイフ&gt;アプリで<br class="sp">スタンプラリー！<br>限定グッズ、もらえます！
 			</h1>
 			<div class="content_inner">
 				<div class="appli_link pc">
@@ -78,10 +78,10 @@
 		</article>
 
 		<article id="prize" class="contents">
-				<h2 class="content_title">
-				スタンプラリーで<br class="sp">
-				景品をゲット！
-				</h2>
+			<h2 class="content_title">
+			スタンプラリーで<br class="sp">
+			景品をゲット！
+			</h2>
 			<div class="content_inner">
 				<div class="prize_content">
 					<div class="prize_list_wrap">
@@ -183,7 +183,6 @@
 							※ご利用の端末が非対応の場合がございます。<br class="sp">また現在iPhone XRでは「光スタンプ」のサービスを<br class="sp">ご利用いただくことができません。<br>
 							対応端末については<a href="http://qa-top.tsite.jp/category/show/3437?site_domain=qa-smasai" target="_blank">こちらのページをご覧ください。</a>
 						</p>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -284,7 +283,7 @@
 		</div>
 	</footer>
 
-	<script type="text/javascript">
+	<script>
 		// 端末判定
 		if (navigator.userAgent.indexOf("iPhone") > 0 && -1 == navigator.userAgent.indexOf("iPad") || navigator.userAgent.indexOf("iPod") > 0) {
 			$('.sp_link_btn.android').addClass('hide');

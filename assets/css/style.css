@@ -139,15 +139,15 @@ body main .content_inner {
   margin: 40px auto 0;
 }
 
-body main #title .main_img img {
+body main #top .main_img img {
   display: block;
 }
 
-body main #top .content_inner {
+body main #title .content_inner {
   margin-top: 20px;
 }
 
-body main #top .content_inner .appli_link.pc {
+body main #title .content_inner .appli_link.pc {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -155,34 +155,34 @@ body main #top .content_inner .appli_link.pc {
   width: 350px;
 }
 
-body main #top .content_inner .appli_link.pc .link_btn {
+body main #title .content_inner .appli_link.pc .link_btn {
   margin-right: 20px;
 }
 
-body main #top .content_inner .appli_link.pc .link_btn:last-child {
+body main #title .content_inner .appli_link.pc .link_btn:last-child {
   margin-right: 0;
 }
 
-body main #top .content_inner .appli_link.pc .link_btn a {
+body main #title .content_inner .appli_link.pc .link_btn a {
   display: block;
 }
 
-body main #top .content_inner .appli_link.pc .link_btn a img {
+body main #title .content_inner .appli_link.pc .link_btn a img {
   height: auto;
   width: 160px;
 }
 
-body main #top .content_inner .appli_link.sp {
+body main #title .content_inner .appli_link.sp {
   height: auto;
   margin: 0 auto;
   width: 163px;
 }
 
-body main #top .content_inner .appli_link.sp .sp_link_btn {
+body main #title .content_inner .appli_link.sp .sp_link_btn {
   display: block;
 }
 
-body main #top .content_inner .appli_link.sp .sp_link_btn img {
+body main #title .content_inner .appli_link.sp .sp_link_btn img {
   display: block;
 }
 

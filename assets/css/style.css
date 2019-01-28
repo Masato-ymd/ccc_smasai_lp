@@ -322,7 +322,6 @@ body main #appli .content_inner .appli_link.pc {
   display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
-  padding-bottom: 80px;
   width: 350px;
 }
 
@@ -358,7 +357,7 @@ body main #appli .content_inner .appli_link.sp .sp_link_btn img {
 }
 
 body main #appli .content_inner .introduction_link {
-  margin-top: 15px;
+  margin: 40px auto 0;
 }
 
 body main #appli .content_inner .introduction_link a {
@@ -485,7 +484,7 @@ body footer .text + .text {
     padding-top: 30px;
   }
   body main #reward {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     padding-left: 10%;
     padding-right: 10%;
   }
@@ -514,7 +513,10 @@ body footer .text + .text {
     text-align: left;
   }
   body main #appli {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
+  }
+  body main #appli .content_inner .introduction_link {
+    margin-top: 15px;
   }
   body footer .inner {
     border-top: 1px solid #cccccc;

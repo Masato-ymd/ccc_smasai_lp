@@ -296,12 +296,12 @@ body {
 							padding: 0 40px;
 						}
 						&_item {
-							padding-bottom: 30px;
+							margin-bottom: 20px;
 							@media #{$sp} {
 								text-align: left;
 							}
 							&:last-child {
-								padding-bottom: 0;
+								margin-bottom: 0;
 							}
 						}
 					}
@@ -319,7 +319,7 @@ body {
 					.question {
 						&_list {
 							&_item {
-								margin-bottom: 35px;
+								margin-bottom: 30px;
 								text-decoration: underline;
 								@media #{$sp} {
 									text-align: left;

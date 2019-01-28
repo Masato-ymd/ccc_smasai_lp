@@ -296,15 +296,15 @@ body main #event .content_inner .about_event {
 }
 
 body main #event .content_inner .about_event_item {
-  padding-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 body main #event .content_inner .about_event_item:last-child {
-  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 body main #question .content_inner .question_list_item {
-  margin-bottom: 35px;
+  margin-bottom: 30px;
   text-decoration: underline;
 }
 

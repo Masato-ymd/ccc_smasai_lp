@@ -273,8 +273,10 @@
 		if (w < 768) {
 			if (navigator.userAgent.indexOf("iPhone") > 0 && -1 == navigator.userAgent.indexOf("iPad") || navigator.userAgent.indexOf("iPod") > 0) {
 			$('.link_btn.android').addClass('hide');
+			$(".banner.sp").attr("href", "https://itunes.apple.com/jp/app/sumahosaifu/id1062197653?l=ja&ls=1&mt=8");
 			} else {
 				$('.link_btn.ios').addClass('hide');
+				$(".banner.sp").attr("href", "https://play.google.com/store/apps/details?id=jp.smasai.android");
 			}
 		}
 	</script>
